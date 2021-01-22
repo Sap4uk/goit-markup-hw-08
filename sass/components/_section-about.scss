@@ -1,0 +1,58 @@
+/* about */
+.section-about {
+  padding-bottom: 94px;
+}
+
+.section-about h2 {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.section-about ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.work-list {
+  display: flex;
+}
+
+.work-list .item {
+  margin-right: 30px;
+}
+.work-list .item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.work-thumb {
+  position: relative;
+}
+
+.list-thumb {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  text-transform: uppercase;
+}
+
+.list-thumb > p {
+  font-family: $main_font;
+
+  font-weight: 700;
+
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 27px;
+  color: $primary-white-color;
+}
+
+/* about */

@@ -1,0 +1,58 @@
+.section-porfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.head-portfolio {
+  padding: 24px 20px 24px 20px;
+}
+
+.section-porfolio h1 {
+  display: none;
+}
+
+// button-portfolio
+
+.button-portfolio {
+  color: $primary-text-color;
+  background-color: $main-bg-color;
+
+  font-family: $main_font;
+
+  font-weight: 500;
+
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  border-radius: 4px;
+  display: inline-block;
+  border: none;
+  padding: 6px 22px;
+
+  transition: color 250ms $timing-animation,
+    background-color 250ms $timing-animation, box-shadow 250ms $timing-animation;
+
+  &:focus,
+  &:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: $accent-color;
+    color: $primary-white-color;
+  }
+}
+
+.container-button .item {
+  margin-right: 8px;
+}
+
+.container-button .item:nth-child(5n) {
+  margin-right: 0;
+}
+
+.container-button {
+  display: flex;
+  justify-content: center;
+}
+
+// button-portfolio
